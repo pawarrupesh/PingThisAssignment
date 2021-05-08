@@ -38,7 +38,7 @@ export default class Tiles extends Component {
           {images.map((el) => {
             return (
               <div key={el.id} className="tiles-div">
-                <img src={el.download_url} loading="eager" alt="tiles" />
+                <img src={el.download_url} alt="tiles" />
               </div>
             );
           })}
